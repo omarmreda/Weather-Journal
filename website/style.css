@@ -1,0 +1,163 @@
+*{box-sizing: border-box;
+margin:0;
+}
+body{
+    background-color: #545452;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp2035103.jpg");
+    background-blend-mode: lighten;
+}
+#main-container{
+    display: flex;
+    justify-content: center;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: 40px 5px 70px 220px 200px;
+    /* grid-template-columns:  */
+    width:60%;
+    color: #fff;
+    height: 100vh;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 20px;
+    background-color: rgba(34, 122, 255, 0.2);
+}
+button:hover{
+    background-color: #fc315d;
+transform: scale(1.01);
+transition-duration: 0.3s;
+}
+
+.holder {
+    width:100%
+}
+
+.entry{
+    background: rgba(218, 218, 218, .4);
+    border-radius: 10px;
+    color: #fff;
+    font-style: italic;
+    width: 100%;
+}
+
+/* #entryHolder{
+
+} */
+
+#date{
+    color: #004;
+}
+#city-result{
+    color: #004;
+}
+
+#temp{
+color: #004;
+}
+
+#content{
+    color: #004;
+}
+
+.headline {
+    margin-top: 20px;
+    color: #f64c72;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.title{
+color: #FFF;
+font-style: italic;
+background-color: #f64c72;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+input{
+    display:block;
+    height: 40px;
+    /* width: 250px; */
+    background:#fff;
+    color: #553d67;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 4px;
+    width:100%;
+}
+input::placeholder{
+font-style: italic;
+color: #553d67;
+}
+hr{
+    width: 260px;
+    margin-left: 0;
+    background-color: #f64c72;
+    border: none;
+    height:1.5px;
+}
+
+button{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: #f64c72;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 500;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#fff;
+    color: #004;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    height: 100px;
+    border-radius: 4px;
+    width: 100%;
+}
+textarea::placeholder{
+    font-style: italic;
+    color: #553d67;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #000; 
+    font-family: 'Oswald', sans-serif;
+
+} 
